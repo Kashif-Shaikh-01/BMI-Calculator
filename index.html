@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background-color: #212221;
+      color: #fff;
+      font-size: 1.7rem;
+    }
+
+    input {
+      background-color: aliceblue;
+      height: 2rem;
+      width: 30%;
+      margin-left: 20px;
+      font-size: 1rem;
+      font-weight: 900;
+      outline: none;
+      text-align: center;
+    }
+    button {
+      height: 2rem;
+      width: 10rem;
+      font-size: 1rem;
+      font-weight: 900;
+      margin: 25px 80px;
+    }
+    #results {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 100px;
+      margin-top: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+      <form>
+        <p><label>Weight in KG's</label> <input type="text" id="weight" /></p>
+        <p><label>Height in Cm</label> <input type="text" id="height" /></p>
+        <button>CALCULATE</button>
+        <div id="results"></div>
+      </form>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
